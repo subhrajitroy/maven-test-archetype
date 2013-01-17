@@ -9,4 +9,4 @@ git add ${ARCHETYPE_METADATA_FILE}
 
 git commit -m"Release|Changed motech version to ${ARCHETYPE_METADATA_FILE}"
 
-mvn release:perform
+mvn release:perform -DconnectionUrl=scm:git:https://github.com/subhrajitroy/maven-test-archetype
