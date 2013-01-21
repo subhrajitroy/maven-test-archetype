@@ -2,7 +2,7 @@
 <archetype-descriptor name="archetype">
     <requiredProperties>
         <requiredProperty key="motechVersion">
-            <defaultValue></defaultValue>
+            <defaultValue>0.17-SNAPSHOT</defaultValue>
         </requiredProperty>
     </requiredProperties>
 </archetype-descriptor>

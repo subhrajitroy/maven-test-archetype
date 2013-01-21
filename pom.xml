@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>my.test.archetype.groupId</groupId>
     <artifactId>my.test.archetype.artifactId</artifactId>
@@ -33,4 +34,22 @@
         <url>${scm.url}</url>
         <tag>HEAD</tag>
     </scm>
+
+    <repositories>
+        <repository>
+            <id>motech.nexus</id>
+            <name>MOTECH Snapshots Repository</name>
+            <url>http://nexus.motechproject.org/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>test</id>
+            <url>http://localhost:8081/nexus/content/repositories/test</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>test</id>
+            <url>http://localhost:8081/nexus/content/repositories/test</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
