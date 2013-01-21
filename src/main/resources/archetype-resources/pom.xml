@@ -6,6 +6,9 @@
     <version>${version}</version>
     <packaging>jar</packaging>
 
+    <properties>
+        <motechVersion>${version}</motechVersion>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -17,7 +20,7 @@
         <dependency>
             <groupId>org.motechproject</groupId>
             <artifactId>motech-platform-server-config</artifactId>
-            <version>${version}</version>
+            <version>${motechVersion}</version>
         </dependency>
     </dependencies>
 
