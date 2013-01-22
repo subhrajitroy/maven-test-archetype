@@ -5,4 +5,12 @@
             <defaultValue>0.17-SNAPSHOT</defaultValue>
         </requiredProperty>
     </requiredProperties>
+    <fileSets>
+        <fileSet filtered="true" packaged="false">
+            <directory/>
+            <includes>
+                <include>**/*</include>
+            </includes>
+        </fileSet>
+    </fileSets>
 </archetype-descriptor>

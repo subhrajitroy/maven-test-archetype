@@ -22,9 +22,9 @@
     </build>
 
     <properties>
+        <scm.url>https://github.com/subhrajitroy/maven-test-archetype</scm.url>
         <scm.connection>scm:git:https://github.com/subhrajitroy/maven-test-archetype</scm.connection>
         <scm.developerConnection>scm:git:https://github.com/subhrajitroy/maven-test-archetype</scm.developerConnection>
-        <scm.url>https://github.com/subhrajitroy/maven-test-archetype</scm.url>
     </properties>
 
 
