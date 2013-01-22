@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>my.test.archetype.groupId</groupId>
     <artifactId>my.test.archetype.artifactId</artifactId>
-    <version>1.1.2</version>
+    <version>1.1.3-SNAPSHOT</version>
     <name>Archetype - Test Archetype</name>
     <url>http://maven.apache.org</url>
 
@@ -31,7 +31,7 @@
         <connection>${scm.connection}</connection>
         <developerConnection>${scm.developerConnection}</developerConnection>
         <url>${scm.url}</url>
-        <tag>r-1.1.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <repositories>
