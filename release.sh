@@ -6,7 +6,7 @@ function usage(){
   exit
 }
 
-if [ "help" == $1 ]; then
+if [ "help" == "$1" ]; then
    usage
 fi
 
