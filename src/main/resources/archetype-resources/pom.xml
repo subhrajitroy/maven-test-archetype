@@ -24,5 +24,16 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>local-nexus-release</id>
+            <url>http://localhost:8081/nexus/content/repositories/local-nexus-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>local-nexus-snapshot</id>
+            <url>http://localhost:8081/nexus/content/repositories/local-nexus-snapshot</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
